@@ -1,0 +1,14 @@
+<h1>コメントリスト</h1>
+
+<%= form_for(@comment) do |f| %>
+  <%= f.text_field :content %>
+  <%= f.submit %>
+<% end %>
+
+<ui>
+  <% @comments.each do |comment| %>
+  <li><%= comment.content %></li>
+  <% end %>
+</ui>
+
+<%= link_to '全て削除', comments_path, method: :delete %>
