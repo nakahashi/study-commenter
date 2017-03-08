@@ -1,24 +1,9 @@
-# README
+# RailsユーザだけどPHP/Symfony触ってみた
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+このリポジトリは、PHP/Symfonyをとりあえず触ってみた成果物です。
 
-Things you may want to cover:
+Qiitaで記事書きました。
 
-* Ruby version
+[RailsユーザだけどPHP/Symfony触ってみた - Qiita](http://qiita.com/nakahashi/items/e0902a62309d7026fc12)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+masterブランチにRails版、symfonyブランチにSymfony版を格納しています
