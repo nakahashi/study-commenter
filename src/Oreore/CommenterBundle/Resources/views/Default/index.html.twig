@@ -1,0 +1,13 @@
+<h1>コメントリスト</h1>
+
+{{ form_start(form) }}
+{{ form_widget(form) }}
+{{ form_end(form) }}
+
+<ul>
+  {% for comment in comments %}
+    <li>{{ comment.content }}</li>
+  {% endfor %}
+</ul>
+
+<a href="{{ path('destroy') }}">全て削除</a>
